@@ -1,0 +1,11 @@
+din $s0
+dout $s0
+din $s1
+dout $s1
+beq $s0, $s1, -3
+and $s0, $s0, $s0
+and $s0, $s0, $s0
+and $s0, $s0, $s0
+and $s0, $s0, $s0
+and $s0, $s0, $s0
+j -11
